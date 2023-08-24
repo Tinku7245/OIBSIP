@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    background: #88d6fe;
+}
+.sidebar{
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.headName{
+    font-size: 2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0;
+}
+nav{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 1rem;
+    
+
+
+}
+
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+    padding: 0.6rem 2rem;
+    border-radius: 20px;
+   
+    
+}
+.active{
+    background: #6595ae;
+    color: white;
+}
+
+.sidebar nav li a:hover{
+    background: #6595ae;
+    color: white;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 6rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 80vh;
+
+}
+
+.intro-up{
+    flex: 1;
+    background: #6595ae;
+    display: flex;
+    
+    
+}
+.intro-up .pic{
+    flex: 1;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    
+}
+.pic img{
+    position: absolute;
+    height: 12rem;
+    width: 12rem;
+    top:-4rem;
+}
+.intro-up .rigth{
+    flex: 2;
+    margin: auto;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:0.7rem;
+}
+.intro-up .rigth span:nth-of-type(1){
+    font-weight: bold;
+    font-size: 3rem;
+}
+.rigth span:nth-of-type(2){
+    font-size: 1.3rem;
+
+}
+.icons{
+    display: flex;
+    gap: 0.5rem;
+}
+.icons i{
+    background: #88d6fe;
+    padding: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+.intro-down{
+    flex: 1;
+    display: flex;
+    gap:1rem;
+}
+.about{
+    margin: auto;
+    padding-left: 1rem;
+    flex: 1;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+}
+.name{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 3rem;
+}
+.name span{
+    display: flex;
+    margin: 0 2rem;
+   
+   
+    
+}
+.name span .bold{
+    font-weight: bold;
+    
+}
